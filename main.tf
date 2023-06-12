@@ -18,6 +18,8 @@ PARAMETERS
 }
 
 
+#TODO
+
 resource "azurerm_subscription_policy_assignment" "appendTag" {
   for_each             = var.requiredtags
   name                 = "append-Tags-for-${each.key}"
