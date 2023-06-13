@@ -18,7 +18,7 @@ PARAMETERS
 }
 
 
-#TODO
+#TODO Latest
 
 resource "azurerm_subscription_policy_assignment" "appendTag" {
   for_each             = var.requiredtags
