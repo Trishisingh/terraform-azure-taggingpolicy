@@ -18,7 +18,7 @@ PARAMETERS
 }
 
 
-#TODO Latest new $$
+#TODO Latest new $$wewe
 
 resource "azurerm_subscription_policy_assignment" "appendTag" {
   for_each             = var.requiredtags
